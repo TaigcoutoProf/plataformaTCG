@@ -1,0 +1,13 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:2em;
+    img{
+        width: 5rem;
+    }
+    a{
+        margin: 3.5rem;
+        text-decoration: none;
+    }
+}

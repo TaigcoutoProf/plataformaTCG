@@ -1,0 +1,133 @@
+/*Reset*/
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/*Colors*/
+body {
+  background-color: #202020;
+}
+
+header {
+  background-color: #202020;
+  border-bottom: 2px #3e3e3e solid;
+}
+header h1 {
+  color: #969695;
+}
+header a {
+  color: #969695;
+}
+
+section {
+  color: #969695;
+}
+section section article {
+  border-color: #969695;
+}
+section section article img {
+  border-color: #969695;
+}
+
+/*Typography*/
+@font-face {
+  font-family: "Acumin Pro";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Acumin Pro"), url("../../fonts/Acumin-RPro.woff") format("woff");
+}
+@font-face {
+  font-family: "Acumin Pro Italic";
+  font-style: italic;
+  font-weight: normal;
+  src: local("Acumin Pro Italic"), url("Acumin-ItPro.woff") format("woff");
+}
+@font-face {
+  font-family: "Acumin Pro Bold";
+  font-style: normal;
+  font-weight: bold;
+  src: local("Acumin Pro Bold"), url("Acumin-BdPro.woff") format("woff");
+}
+@font-face {
+  font-family: "Acumin Pro Bold Italic";
+  font-style: italic;
+  font-weight: bold;
+  src: local("Acumin Pro Bold Italic"), url("../../fonts/Acumin-BdItPro.woff") format("woff");
+}
+@font-face {
+  font-family: "Acumin Thin";
+  src: url(../../fonts/Acumin-Pro-Thin.ttf);
+  font-style: thin;
+  font-weight: lighter;
+}
+header h1 {
+  font-family: "Acumin Thin";
+  font-weight: bold;
+  font-size: 2em;
+}
+header nav a {
+  font-family: "Acumin Thin";
+  font-weight: lighter;
+  font-size: 1em;
+}
+
+section p {
+  text-align: justify;
+}
+
+/*Header*/
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2em;
+}
+header img {
+  width: 5rem;
+}
+header a {
+  margin: 3.5rem;
+  text-decoration: none;
+}
+
+/*Home*/
+main {
+  display: flex;
+  justify-content: center;
+}
+main section {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main section section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-center;
+}
+main section section article {
+  border: 1px solid;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem;
+  filter: grayscale(100%);
+}
+main section section article img {
+  border-radius: 15px 15px 0px 0px;
+  border: 1px solid;
+  width: 15rem;
+}
+
+article:hover {
+  cursor: pointer;
+  transform: scale(1.04);
+  transition: ease-in-out;
+  filter: grayscale(0%);
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,39 @@
+
+main{
+    display: flex;
+    justify-content: center;
+    section{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        section{    
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-center;
+            article{
+                border: 1px solid;
+                border-radius: 15px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin: 2rem;
+                filter: grayscale(100%);
+                img{
+                    border-radius: 15px 15px 0px 0px;
+                    border: 1px solid; 
+                    width: 15rem;
+                }
+            
+            }
+        }
+    }
+}
+
+article:hover{
+    cursor: pointer;
+    transform: scale(1.04);
+    transition: ease-in-out;
+    filter: grayscale(0%);
+}
