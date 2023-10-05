@@ -30,50 +30,37 @@ section section article img {
   border-color: #969695;
 }
 
+article:hover h2 {
+  color: #bbc1cc;
+}
+
+footer {
+  color: #969695;
+}
+
 /*Typography*/
 @font-face {
-  font-family: "Acumin Pro";
+  font-family: "Acumin";
+  font-weight: 400;
+  src: url("../../fonts/Acumin-RPro.woff") format("woff");
   font-style: normal;
   font-weight: normal;
-  src: local("Acumin Pro"), url("../../fonts/Acumin-RPro.woff") format("woff");
-}
-@font-face {
-  font-family: "Acumin Pro Italic";
-  font-style: italic;
-  font-weight: normal;
-  src: local("Acumin Pro Italic"), url("Acumin-ItPro.woff") format("woff");
-}
-@font-face {
-  font-family: "Acumin Pro Bold";
-  font-style: normal;
-  font-weight: bold;
-  src: local("Acumin Pro Bold"), url("Acumin-BdPro.woff") format("woff");
-}
-@font-face {
-  font-family: "Acumin Pro Bold Italic";
-  font-style: italic;
-  font-weight: bold;
-  src: local("Acumin Pro Bold Italic"), url("../../fonts/Acumin-BdItPro.woff") format("woff");
-}
-@font-face {
-  font-family: "Acumin Thin";
-  src: url(../../fonts/Acumin-Pro-Thin.ttf);
-  font-style: thin;
-  font-weight: lighter;
 }
 header h1 {
-  font-family: "Acumin Thin";
-  font-weight: bold;
-  font-size: 2em;
+  font-family: "Acumin";
 }
 header nav a {
-  font-family: "Acumin Thin";
-  font-weight: lighter;
-  font-size: 1em;
+  font-family: "Acumin";
 }
 
 section p {
   text-align: justify;
+}
+
+footer {
+  font-family: "Acumin";
+  font-weight: lighter;
+  font-size: 1em;
 }
 
 /*Header*/
@@ -92,6 +79,14 @@ header a {
 }
 
 /*Home*/
+html {
+  font-size: 16px;
+}
+
+header h1 {
+  display: none;
+}
+
 main {
   display: flex;
   justify-content: center;
@@ -102,11 +97,14 @@ main section {
   flex-direction: column;
   align-items: center;
 }
+main section p {
+  max-width: 920px;
+}
 main section section {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-center;
+  justify-content: center;
 }
 main section section article {
   border: 1px solid;
@@ -120,7 +118,7 @@ main section section article {
 main section section article img {
   border-radius: 15px 15px 0px 0px;
   border: 1px solid;
-  width: 15rem;
+  width: 13rem;
 }
 
 article:hover {
@@ -128,6 +126,19 @@ article:hover {
   transform: scale(1.04);
   transition: ease-in-out;
   filter: grayscale(0%);
+}
+
+footer p {
+  text-align: center;
+}
+
+@media (min-width: 650px) {
+  html {
+    font-size: 18px;
+  }
+  header h1 {
+    display: block;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

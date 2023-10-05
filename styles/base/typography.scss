@@ -1,59 +1,22 @@
+
 @font-face {
-    font-family: 'Acumin Pro';
+    font-family: "Acumin";
+    font-weight: 400;
+    src: url("../../fonts/Acumin-RPro.woff") format('woff');
     font-style: normal;
-    font-weight: normal;
-    src: local('Acumin Pro'), url('../../fonts/Acumin-RPro.woff') format('woff');
-    }
-    
-
-    @font-face {
-    font-family: 'Acumin Pro Italic';
-    font-style: italic;
-    font-weight: normal;
-    src: local('Acumin Pro Italic'), url('Acumin-ItPro.woff') format('woff');
-    }
-    
-
-    @font-face {
-    font-family: 'Acumin Pro Bold';
-    font-style: normal;
-    font-weight: bold;
-    src: local('Acumin Pro Bold'), url('Acumin-BdPro.woff') format('woff');
-    }
-    
-
-    @font-face {
-    font-family: 'Acumin Pro Bold Italic';
-    font-style: italic;
-    font-weight: bold;
-    src: local('Acumin Pro Bold Italic'), url('../../fonts/Acumin-BdItPro.woff') format('woff');
-    }
-@font-face {
-    font-family: "Acumin Thin";
-    src: url(../../fonts/Acumin-Pro-Thin.ttf);
-    font-style: thin;
-    font-weight:lighter;
+    font-weight:normal;
 }
 
-
-$regular:'Acumin Pro';
-$bold:'Acumin Bold';
-$italic:'Acumin Pro Italic';
-$bd-it:'Acumin Bold Italic';
-$thin:'Acumin Thin';
+$thin:'Acumin';
 
 header{
     h1{
-        font-family:'Acumin Thin';
-        font-weight:bold;
-        font-size: 2em;
+        font-family:'Acumin';
     }
 
     nav{
         a{
-            font-family:'Acumin Thin';
-            font-weight:lighter;
-            font-size: 1em;
+            font-family:$thin;
         }
     }
 }
@@ -61,4 +24,9 @@ section{
     p{
         text-align: justify;
     }
+}
+footer{
+        font-family:$thin;
+        font-weight:lighter;
+        font-size: 1em;
 }
