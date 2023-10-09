@@ -17,13 +17,13 @@ header{
     border-bottom: 2px $black2 solid;
     h1{
       color: $black4;  
-
+      
     }
     a{
       color: $black4;  
     }
-}
-section{
+  }
+  section{
   color: $black4;
   section{
     article{
@@ -39,6 +39,11 @@ article:hover{
     color: $blue4;
   }
 }
+a:visited{
+  color: $black4;
+}
 footer{
+  background-color: $black1;
+  border-top: 2px $black2 solid;
   color:$black4;
 }
