@@ -20,6 +20,14 @@ header{
         }
     }
 }
+input{
+    font-family:$thin;
+}
+
+button{
+    font-family:$thin;
+    font-weight: 800;
+}
 section{
     p{
         text-align: justify;

@@ -13,11 +13,11 @@ body{
 }
 
 header{
-    background-color: $black1;
-    border-bottom: 2px $black2 solid;
-    h1{
-      color: $black4;  
-      
+  background-color: $black1;
+  border-bottom: 2px $black2 solid;
+  h1{
+    color: $black4;  
+    
     }
     a{
       color: $black4;  
@@ -33,6 +33,19 @@ header{
       }
     }
   }
+}
+input{
+  border-color: $black4;
+  color: $black4;
+}
+button{
+  border-color: $black4;
+  background-color: $black1;
+  color: $black4;
+}
+button:hover{
+  background-color: $black3;
+  color: $black1;
 }
 article:hover{
   h2{
