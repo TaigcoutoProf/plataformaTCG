@@ -151,13 +151,13 @@ main section {
 main section p {
   max-width: 920px;
 }
-main section.container-cursos {
+main section.container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
 }
-main section.container-cursos article {
+main section.container article {
   border: 1px solid;
   border-radius: 15px;
   display: flex;
@@ -166,7 +166,7 @@ main section.container-cursos article {
   margin: 2rem;
   filter: grayscale(100%);
 }
-main section.container-cursos article img {
+main section.container article img {
   border-radius: 15px 15px 0px 0px;
   border: 1px solid;
   width: 13rem;
