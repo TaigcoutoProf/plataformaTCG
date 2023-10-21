@@ -34,6 +34,8 @@ header{
     }
   }
 }
+
+
 input{
   border-color: $black4;
   color: $black4;
@@ -54,6 +56,13 @@ article:hover{
 }
 a:visited{
   color: $black4;
+}
+body{
+    main.acesso{
+    div.button-back{
+    border-color: $black4;
+    }
+  }
 }
 footer{
   background-color: $black1;

@@ -3,12 +3,25 @@ main.acesso{
     justify-content: center;
     align-items: stretch;
     gap: 10%;
+    div.button-back{
+        position: absolute;
+        left: 1.2em;
+        top: 10em;
+        border: 1px solid;
+        width: 2em;
+        height: 2em;
+        border-radius: 20px;
+        img.arrow-back{
+            width: 2em;
+            transform:rotate(180deg);
+        }
+    }
+
     section.acesso{
         width: 80%;
         max-width: 400px;
         flex-direction: column;
         justify-content: space-around;
-
         input{
             width: 100%;
             margin: 1rem 0 ;
