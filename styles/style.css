@@ -208,6 +208,10 @@ h2.titulo-cc {
 }
 
 /*powerPoint*/
+a.pc {
+  text-decoration: wavy;
+}
+
 /*acesso*/
 main.acesso {
   display: flex;
