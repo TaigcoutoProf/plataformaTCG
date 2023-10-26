@@ -48,11 +48,11 @@ button:hover {
 }
 
 article:hover h2 {
-  color: #bbc1cc;
+  color: #969695;
 }
 
 a:visited {
-  color: #bbc1cc;
+  color: #969695;
 }
 
 body main.acesso div.button-back {
@@ -155,6 +155,9 @@ main section {
   flex-direction: column;
   align-items: center;
 }
+main section h1 {
+  text-align: center;
+}
 main section p {
   max-width: 920px;
 }
@@ -203,6 +206,20 @@ a:visited {
     display: block;
   }
 }
+div.button-back {
+  position: absolute;
+  left: 1.2em;
+  top: 10em;
+  border: 1px solid;
+  width: 2em;
+  height: 2em;
+  border-radius: 20px;
+}
+div.button-back img.arrow-back {
+  width: 2em;
+  transform: rotate(180deg);
+}
+
 iframe {
   border-radius: 15px;
 }
@@ -238,19 +255,6 @@ main.acesso {
   justify-content: center;
   align-items: center;
   gap: 10%;
-}
-main.acesso div.button-back {
-  position: absolute;
-  left: 1.2em;
-  top: 10em;
-  border: 1px solid;
-  width: 2em;
-  height: 2em;
-  border-radius: 20px;
-}
-main.acesso div.button-back img.arrow-back {
-  width: 2em;
-  transform: rotate(180deg);
 }
 main.acesso section.acesso {
   width: 80%;
