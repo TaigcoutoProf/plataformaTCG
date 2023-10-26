@@ -98,6 +98,12 @@ footer {
   font-size: 1em;
 }
 
+h2.titulo-cc {
+  font-family: "Acumin";
+  font-weight: bold;
+  font-size: 1em;
+}
+
 /*Header*/
 header {
   display: flex;
@@ -158,6 +164,7 @@ main section.container {
   justify-content: center;
 }
 main section.container article {
+  width: 15rem;
   border: 1px solid;
   border-radius: 15px;
   display: flex;
@@ -169,7 +176,7 @@ main section.container article {
 main section.container article img {
   border-radius: 15px 15px 0px 0px;
   border: 1px solid;
-  width: 13rem;
+  width: 100%;
 }
 
 section.container article:hover {
@@ -196,6 +203,10 @@ a:visited {
   }
 }
 /*novotec*/
+h2.titulo-cc {
+  text-align: center;
+}
+
 /*powerPoint*/
 /*acesso*/
 main.acesso {

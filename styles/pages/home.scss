@@ -25,6 +25,7 @@ main{
             flex-wrap: wrap;
             justify-content: center;
             article{
+                width: 15rem;
                 border: 1px solid;
                 border-radius: 15px;
                 display: flex;
@@ -34,8 +35,8 @@ main{
                 filter: grayscale(100%);
                 img{
                     border-radius: 15px 15px 0px 0px;
-                    border: 1px solid; 
-                    width: 13rem;
+                    border: 1px solid;
+                    width: 100%; 
                 }
                 
             }
