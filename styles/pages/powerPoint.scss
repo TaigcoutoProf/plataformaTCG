@@ -1,3 +1,16 @@
 a.pc{
-    text-decoration: wavy;
+    text-decoration: dashed;
+    font-weight: 800;
+}:visited{
+    text-decoration: dotted;
+}
+
+/*Página Interface*/
+
+section.short-intro{
+    flex-direction: row-reverse;
+    p{
+        width: 80%;
+        margin: 5%;
+    }
 }

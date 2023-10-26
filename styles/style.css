@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*Reset*/
 body {
   margin: 0;
@@ -17,7 +18,7 @@ header h1 {
   color: #969695;
 }
 header a {
-  color: #969695;
+  color: #bbc1cc;
 }
 
 section {
@@ -51,7 +52,7 @@ article:hover h2 {
 }
 
 a:visited {
-  color: #969695;
+  color: #bbc1cc;
 }
 
 body main.acesso div.button-back {
@@ -202,6 +203,10 @@ a:visited {
     display: block;
   }
 }
+iframe {
+  border-radius: 15px;
+}
+
 /*novotec*/
 h2.titulo-cc {
   text-align: center;
@@ -209,7 +214,21 @@ h2.titulo-cc {
 
 /*powerPoint*/
 a.pc {
-  text-decoration: wavy;
+  text-decoration: dashed;
+  font-weight: 800;
+}
+
+:visited {
+  text-decoration: dotted;
+}
+
+/*Página Interface*/
+section.short-intro {
+  flex-direction: row-reverse;
+}
+section.short-intro p {
+  width: 80%;
+  margin: 5%;
 }
 
 /*acesso*/
