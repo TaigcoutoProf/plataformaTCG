@@ -1,7 +1,8 @@
 main.acesso{
-    flex-direction: row;
+    display: flex;
+    flex-direction: column-reverse;
     justify-content: center;
-    align-items: stretch;
+    align-items: center;
     gap: 10%;
     div.button-back{
         position: absolute;
@@ -34,16 +35,25 @@ main.acesso{
             outline:0;
             box-shadow: 1px 1px 1px 0px;
         }
+        p, label, button{
+            margin: 1rem 0 ;
+        }
         button{
             padding: 1.2em 2em;
             border-radius: 12px;
-        }:hover{
             transform: scale(1.05);
+        }:hover{
             cursor: pointer;
         }
     }
     img{
         width: 50%;
-        max-width: 600px;
+        max-width: 500px;
+    }
+}
+
+@media (min-width:780px){
+    main.acesso{
+        flex-direction:row;
     }
 }

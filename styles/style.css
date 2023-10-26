@@ -172,7 +172,7 @@ main section.container article img {
   width: 13rem;
 }
 
-article:hover {
+section.container article:hover {
   cursor: pointer;
   transform: scale(1.04);
   transition: ease-in-out;
@@ -199,9 +199,10 @@ a:visited {
 /*powerPoint*/
 /*acesso*/
 main.acesso {
-  flex-direction: row;
+  display: flex;
+  flex-direction: column-reverse;
   justify-content: center;
-  align-items: stretch;
+  align-items: center;
   gap: 10%;
 }
 main.acesso div.button-back {
@@ -236,17 +237,26 @@ main.acesso section.acesso :focus {
   outline: 0;
   box-shadow: 1px 1px 1px 0px;
 }
+main.acesso section.acesso p, main.acesso section.acesso label, main.acesso section.acesso button {
+  margin: 1rem 0;
+}
 main.acesso section.acesso button {
   padding: 1.2em 2em;
   border-radius: 12px;
+  transform: scale(1.05);
 }
 main.acesso section.acesso :hover {
-  transform: scale(1.05);
   cursor: pointer;
 }
 main.acesso img {
   width: 50%;
-  max-width: 600px;
+  max-width: 500px;
+}
+
+@media (min-width: 780px) {
+  main.acesso {
+    flex-direction: row;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -37,17 +37,19 @@ main{
                     border: 1px solid; 
                     width: 13rem;
                 }
-            
+                
             }
         }
     }
 
 
-article:hover{
-    cursor: pointer;
-    transform: scale(1.04);
-    transition: ease-in-out;
-    filter: grayscale(0%);
+section.container{
+        article:hover{
+        cursor: pointer;
+        transform: scale(1.04);
+        transition: ease-in-out;
+        filter: grayscale(0%);
+    }
 }
 a{
     text-decoration: none;
