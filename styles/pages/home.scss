@@ -47,32 +47,9 @@ main{
     }
 
 
-section.container{
-        article:hover{
-        cursor: pointer;
-        transform: scale(1.04);
-        transition: ease-in-out;
-        filter: grayscale(0%);
-    }
-}
-a{
-    text-decoration: none;
-}
-a:visited{
-    text-decoration: none;
-}
 
-@media (min-width:650px) {
-    html{
-        font-size: 18px;
-    }
-    header{
-        h1{
-            display: block;
-        }
-    }
-}
 
+/* Conteúdos de todas as páginas*/
 div.button-back{
     position: absolute;
     left: 1.2em;
@@ -88,4 +65,7 @@ div.button-back{
 }
 iframe{
     border-radius: 15px;
+}
+a.button-acesso-notion{
+
 }

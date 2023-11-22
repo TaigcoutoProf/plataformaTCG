@@ -59,6 +59,15 @@ body main.acesso div.button-back {
   border-color: #969695;
 }
 
+a.button-acesso-notion {
+  background-color: #5d5d5d;
+  border-color: #202020;
+}
+
+:visited {
+  color: #202020;
+}
+
 footer {
   background-color: #202020;
   border-top: 2px #3e3e3e solid;
@@ -135,6 +144,30 @@ footer p {
   text-align: center;
 }
 
+/*Container*/
+section.container article:hover {
+  cursor: pointer;
+  transform: scale(1.04);
+  transition: ease-in-out;
+  filter: grayscale(0%);
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+@media (min-width: 650px) {
+  html {
+    font-size: 18px;
+  }
+  header h1 {
+    display: block;
+  }
+}
 /*Home*/
 html {
   font-size: 16px;
@@ -183,29 +216,7 @@ main section.container article img {
   width: 100%;
 }
 
-section.container article:hover {
-  cursor: pointer;
-  transform: scale(1.04);
-  transition: ease-in-out;
-  filter: grayscale(0%);
-}
-
-a {
-  text-decoration: none;
-}
-
-a:visited {
-  text-decoration: none;
-}
-
-@media (min-width: 650px) {
-  html {
-    font-size: 18px;
-  }
-  header h1 {
-    display: block;
-  }
-}
+/* Conteúdos de todas as páginas*/
 div.button-back {
   position: absolute;
   left: 1.2em;
@@ -222,30 +233,6 @@ div.button-back img.arrow-back {
 
 iframe {
   border-radius: 15px;
-}
-
-/*novotec*/
-h2.titulo-cc {
-  text-align: center;
-}
-
-/*powerPoint*/
-a.pc {
-  text-decoration: dashed;
-  font-weight: 800;
-}
-
-:visited {
-  text-decoration: dotted;
-}
-
-/*Página Interface*/
-section.short-intro {
-  flex-direction: row-reverse;
-}
-section.short-intro p {
-  width: 80%;
-  margin: 5%;
 }
 
 /*acesso*/
@@ -295,6 +282,32 @@ main.acesso img {
   main.acesso {
     flex-direction: row;
   }
+}
+/*novotec*/
+h2.titulo-cc {
+  text-align: center;
+}
+
+/*powerPoint*/
+a.pc {
+  text-decoration: dashed;
+  font-weight: 800;
+}
+
+:visited {
+  text-decoration: dotted;
+}
+
+/*Página Interface*/
+section.short-intro {
+  flex-direction: row-reverse;
+}
+section.short-intro p {
+  width: 80%;
+  margin: 1rem;
+}
+section.short-intro h1 {
+  margin: 1rem;
 }
 
 /*# sourceMappingURL=style.css.map */

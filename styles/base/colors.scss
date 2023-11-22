@@ -64,6 +64,12 @@ body{
     }
   }
 }
+a.button-acesso-notion{
+  background-color: $black3;
+  border-color: $black1;
+}:visited{
+  color: $black1;
+}
 footer{
   background-color: $black1;
   border-top: 2px $black2 solid;
